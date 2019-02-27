@@ -1,0 +1,20 @@
+---
+title: "Untitled"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load the packages
+
+Loading the R packages
+
+```{r}
+# load packages -----------------------------------------------------------
+
+library(readxl)     # load readxl, for reading Excel files
+library(tidyverse)  # load tidyverse, for working with datasets
+```
+
